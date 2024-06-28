@@ -9,7 +9,7 @@ class ListTemplate {
     //but we assigned it inside the constructor hence we specify ul above
     constructor() {
         //with assertion
-        this.ul = document.getElementById('ListItems');
+        this.ul = document.getElementById('listItems');
     }
     clear() {
         //set to empty string to clear 

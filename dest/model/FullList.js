@@ -33,7 +33,6 @@ class FullList {
     save() {
         //save our list in the local storage so it persists even if we refresh the page
         localStorage.setItem("myList", JSON.stringify(this._list));
-        console.log(save);
     }
     clearList() {
         //this will clear out the list:

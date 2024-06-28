@@ -57,8 +57,7 @@ export default class FullList implements List {
     save(): void {
         //save our list in the local storage so it persists even if we refresh the page
         localStorage.setItem("myList", JSON.stringify(this._list))
-        console.log(save);
-        
+             
     }
 
     clearList(): void {

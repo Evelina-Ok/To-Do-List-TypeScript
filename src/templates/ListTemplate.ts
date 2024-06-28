@@ -24,7 +24,7 @@ export default class ListTemplate implements DOMList {
     //but we assigned it inside the constructor hence we specify ul above
     private constructor() {
         //with assertion
-        this.ul = document.getElementById('ListItems') as HTMLUListElement
+        this.ul = document.getElementById('listItems') as HTMLUListElement
     }
 
     clear(): void {
